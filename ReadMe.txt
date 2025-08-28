@@ -1,16 +1,3 @@
-Install Required Packages for Linux Ubuntu
-==========================================
-$ sudo apt update
-$ sudo apt install -y build-essential git libevdev-dev libpthread-stubs0-dev
+This version could be opened in Qt Creator. 
 
-
-Run
-===
-Open Terminal in the directory and command:
-
-$ sudo ./z.sh
-
-
-Terminate 
-==========
-Press Ctrl + C to terminate 
+Use sudo while opening the Qt Creator to get access in Linux. 
