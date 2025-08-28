@@ -8,7 +8,7 @@ Run
 ===
 Open Terminal in the directory and command:
 
-$ sudo ./os.sh
+$ sudo ./z.sh
 
 
 Terminate 
