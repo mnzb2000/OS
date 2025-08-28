@@ -7,7 +7,9 @@ if ! dpkg -l | grep -q libevdev-dev; then
     sudo apt-get install -y libevdev-dev
 fi
 
-# Compile the program
+# Compile the C++ program
 echo "Compiling the program..."
-gcc -o os os.c -levdev -lX11 -I/usr/include/libevdev-1.0
-sudo ./os
+g++ -std=c++17 z.cpp -o z $(pkg-config --cflags --libs libevdev)
+
+# Run the program with sudo
+sudo ./z
